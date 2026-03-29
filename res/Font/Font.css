@@ -1,0 +1,28 @@
+/* language: css */
+
+/* Tours Pro */
+@font-face {
+    font-family: 'Torus-Pro';
+    src: url('Torus-Pro/TorusPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Torus-Pro';
+    src: url('Torus-Pro/TorusPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Dm sans */
+/* language: css */
+@font-face {
+    font-family: 'DM-Sans';
+    src: url('DM_Sans/static/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style : normal;
+    font-display: swap;
+}

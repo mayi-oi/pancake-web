@@ -1,0 +1,54 @@
+body {
+    background-color: #1d1d1d;
+}
+
+.Hauptdiv {
+    margin: 0 auto;
+    width: 50svh;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+    padding: 28px;
+    background-color: #121212;
+    border-radius: 18px;
+}
+
+.Hauptdiv img {
+    width: 22%;
+    left: 0;
+    right: 0;
+}
+
+.Hauptdiv h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Hauptdiv p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.web {
+    padding: 14px;
+    border: solid 1px transparent;
+    border-radius: 12px;
+    background-color: #4698fd;
+
+    color: #ffffff;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.web:hover {
+    scale: 1.05;
+    border: solid 1.4px #ffffff;
+}
