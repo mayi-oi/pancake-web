@@ -536,3 +536,57 @@ input[type=submit]:hover {
     font-size: 18px;
     text-align: center;
 }
+
+/* Mobile freundlich (meine weekness lol) */
+@media (max-width: 768px) {   
+    .banner {
+        height: 0%;
+        width: 100%;
+    }
+
+    .banner img {
+        height: 50%;
+    }
+
+    .pfp img {
+        width: 100px;
+    }
+
+    .Hauptdiv h1 {
+        font-size: 40px;
+    }
+
+    .Hauptdiv h2 {
+        font-size: 24px;
+    }
+
+    .mir p {
+        font-size: 20px;
+    }
+
+    .projekte {
+        gap: 8px;
+    }
+
+    .tags {
+        display: flex;
+        gap: 8px;
+        line-height: 1;
+    }
+
+    .sondere-projekt img {
+        width: 100px;
+    }
+
+    .sondere-projekt h2 {
+        font-size: 20px;
+    }
+
+    .footer footer {
+        font-size: 16px;
+    }
+
+    .kontakt p {
+        font-size: 18px;
+    }
+}
