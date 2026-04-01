@@ -9,6 +9,15 @@
 </head>
 
 <body>
+    <div class="navdiv">
+        <div class="info">
+            <h2>mayi.-oi web!</h2>
+            <br>
+            <button class="b1" onclick="document.getElementById('projekte').scrollIntoView({behavior: 'smooth'})">Projekte</button>
+            <button class="b2" onclick="document.getElementById('kontakt').scrollIntoView({behavior: 'smooth'})">Le contact</button>
+            <button class="b3" onclick="window.location.href='https://github.com/mayi-oi/pancake-web'">source code</button>
+        </div>
+    </div>
     <div class="Hauptdiv">
         <div class="banner">
             <img src="res/Img/Hinterground/20260319_141553.jpg">
@@ -28,7 +37,7 @@
             </div>
             <br>
             <h2 style="font-size: 32px;"><u>Coole links!</u></h2>
-            <div class="action-button">
+            <div class="action-button" id="projekte">
                 <div class="social-media">
                     <button class="steam-button" onclick="window.location.href='https://steamcommunity.com/id/mayi-oi'">steam!</button>
                     <button class="git" onclick="window.location.href='https://github.com/mayi-oi'">Github!</button>
@@ -89,7 +98,7 @@
                     <p class="aktiv-ja3">open source?: ja! :)</p>
                     <div class="tags">
                         <button class="website" onclick="window.location.href='https://sites.google.com/view/untitled-skins/home'">web besuchen</button>
-                        <button class="source-code" onclick="window.location.href='https://github.com/mayi-oi/untitled.skin-Bleached-'">source code ansehen</button>
+                        <button class="source-code" onclick="window.location.href='placeholder'">source code ansehen</button>
                 </div>
                 </div>
                 <div class="Phishing-demo">
@@ -111,8 +120,8 @@
             </div>
         <br>
         <h2 style="font-size: 32px;"><u>Le contact</u></h2>
-        <div class="kontakt">
-            <p style="font-size: 22px;">Bist du jetzt schreiben zur Kontakt mir?, lass uns zursammen zum chatten! :D</p>
+        <div class="kontakt" id="kontakt">
+            <p style="font-size: 20px;">Bist du jetzt schreiben zur Kontakt mir?, lass uns zursammen zum chatten! :D</p>
             <div class="formtag">
             <p class="web3form">Coole sender vom <u>web3form!</u></p>
             </div>
@@ -140,9 +149,8 @@
         </div>
 
         <div class="footer">
-            <footer>mayi.-oi 2026 | powerd by Vercel | pixiv: https://www.pixiv.net/en/artworks/119588227 </footer>
+            <footer>mayi.-oi 2026 | powerd by Vercel | pixiv: https://www.pixiv.net/en/artworks/119588227 | version 1.05 </footer>
         </div>
     </div>
 </body>
-
 </html>
