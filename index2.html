@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>mayi.-oi web!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" id="pfp-logo" href="res/Img/Logo/IMG_1537.png">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="res/Font/Font.css">
+    </head>
+    <body>
+        <div class="Hauptdiv">
+            <div class="info">
+                <h2 onclick="window.location.href='index.html'">mayi.-oi web!</h2>
+                <br>
+                <button onclick="window.location.href='index.html'"> Hauptseite </button>
+            </div>
+        <br>
+        <div class="Demo">
+            <div class="banner">Das ist Phishing simluation und <u>überprüfen den richtige website!</u></div> 
+            <br>
+            <div class="logo">
+                <img src="res/img/logo/pfp-weiß.png">
+            </div>
+            <h2>Wilkommen zurück! :D</h2>
+            <p style="line-height: 0;" >Hinterground vom: <u style="cursor: pointer;" onclick="window.location.href='https://unsplash.com/de/fotos/der-mond-geht-uber-schneebedeckten-berggipfeln-auf-z7PAkCMyOFg'">Livia</u></p>
+            <div class="anmelden-form">
+                    <form onsubmit="event.preventDefault(); showFakeDB();">
+                        <div class="a-form">
+                            <label for="username">Nutzername</label>
+                            <input type="text" id="username" placeholder="Jason_28" required>
+
+                            <label for="passwort">Passwort</label>
+                            <input type="password" id="passwort" placeholder="Beispiel: Jason#@4224" required>
+
+                            <div class="sub-button">
+                                <button type="submit">anmelden!</button>
+                            </div>
+                            <div class="and-button">
+                                <button type="button" class="Erstellt-button">Kein konto? jetzt erstellt dein Konto!</button>
+                                <button type="button">Hilfe ich könnte nicht konto zur melden! :(</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <br>
+                <div class="afooter">
+                    <footer>mayi.-studio 2026</footer>
+                    <p style="color: #ffffff;">Ein studio kann man alles erschaffen!</p>
+                    <p>unsere social media zur stalken uns yay!</p>
+                    <div class="coole-links">
+                        <img class="YT" src="res/img/icon/youtube-fill.svg">
+                        <img class="RE" src="res/img/icon/reddit-2-fill.svg">
+                        <img class="DI" src="res/img/icon/discord-fill.svg">
+                        <img class="BLS" src="res/img/icon/bluesky-fill.svg">
+                        <img class="GIT" src="res/img/icon/github-fill.svg">
+                    </div>
+                </div>
+                <br>
+                <div class="Fake-database" id="Fake-database">
+                    <h3>Goofball nutzer datebank 3000</h3>
+                    <p>Zeit: <span  id="Hackzeit"></span></p>
+                    <p>Nutzername: <span id="user"></span></p>
+                    <p>Passwort: <span id="pass"></span></p>
+
+                    <button onclick="closeFakeDB()">ok</button>
+                </div>
+            </div>
+        </div>
+    </body>
+<script>
+    function showFakeDB() {
+            const user = document.getElementById('username').value;
+            const password = document.getElementById('passwort').value;
+
+            document.getElementById('Hackzeit').innerText = new Date().toLocaleString();
+            document.getElementById('user').innerText = user;
+            document.getElementById('pass').innerText = password;
+            document.getElementById('Fake-database').style.display = 'block';
+        }
+
+        function closeFakeDB() {
+            document.getElementById('Fake-database').style.display = 'none';
+        }
+</script>
+</html>
