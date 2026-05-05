@@ -332,7 +332,6 @@ body {
     border-radius: 18px;
     padding: 22px;
     line-height: 1.05;
-    overflow: auto;
 }
 
 /* tags system */
@@ -375,7 +374,7 @@ body {
 }
 
 .website:hover {
-    border: solid 2px #ffffff;
+    box-shadow: 0 0 0 2px #ffffff;
 }
 
 .webing {
@@ -412,7 +411,7 @@ body {
 }
 
 .source-code:hover {
-    border: solid 2px #ffffff;
+    box-shadow: 0 0 0 2px #ffffff;
 }
 
 .aktiv-no {
@@ -440,7 +439,7 @@ body {
 }
 
 .Web {
-    border: solid 1px transparent;
+    border: none;
     background-color: #0d0d0d;
     border-radius: 14px;
     padding: 18px;
@@ -456,13 +455,13 @@ body {
 }
 
 .Web:hover {
-    border: solid 1.7px #ffffff;
+    box-shadow: 0 0 0 1.7px #ffffff;
     transform: scale(1.02);
     transition: all 0.25s ease;
 }
 
 .Portfolio {
-    border: solid 1px transparent;
+    border: none;
     background-color: #0d0d0d;
     border-radius: 14px;
     padding: 18px;
@@ -478,13 +477,13 @@ body {
 
 .Portfolio:hover {
     background-color: #54293e;
-    border: solid 1.7px #ffffff;
+    box-shadow: 0 0 0 1.7px #ffffff;
     transform: scale(1.02);
     transition: all 0.25s ease;
 }
 
 .web-track {
-    border: solid 1px transparent;
+    border: none;
     background-color: #0d0d0d;
     border-radius: 14px;
     padding: 18px;
@@ -500,7 +499,7 @@ body {
 
 .web-track:hover {
     background-color: #294854;
-    border: solid 1.7px #ffffff;
+    box-shadow: 0 0 0 1.7px #ffffff;
     transform: scale(1.02);
     transition: all 0.25s ease;
 }
@@ -516,7 +515,7 @@ body {
 }
 
 .osuskin {
-    border: solid 1px transparent;
+    border: none;
     background-color: #0d0d0d;
     border-radius: 14px;
     padding: 18px;
@@ -532,13 +531,13 @@ body {
 
 .osuskin:hover {
     background-color: #2f4271;
-    border: solid 1.7px #ffffff;
+    box-shadow: 0 0 0 1.7px #ffffff;
     transform: scale(1.02);
     transition: all 0.25s ease;
 }
 
 .Phishing-demo {
-    border: solid 1px transparent;
+    border: none;
     background-color: #0d0d0d;
     border-radius: 14px;
     padding: 18px;
@@ -554,7 +553,7 @@ body {
 
 .Phishing-demo:hover {
     background-color: #712f2f;
-    border: solid 1.7px #ffffff;
+    box-shadow: 0 0 0 1.7px #ffffff;
     transform: scale(1.02);
     transition: all 0.25s ease;
 }
@@ -574,7 +573,7 @@ body {
 }
 
 .ev-sek {
-    border: solid 1px transparent;
+    border: none;
     background-color: #0d0d0d;
     border-radius: 14px;
     padding: 18px;
@@ -584,7 +583,7 @@ body {
 
 .ev-sek:hover {
     background-color: #71422f;
-    border: solid 1.7px #ffffff;
+    box-shadow: 0 0 0 1.7px #ffffff;
     transform: scale(1.02);
     transition: all 0.25s ease;
 }
@@ -726,7 +725,8 @@ input[type=submit]:hover {
     }
 
     .projekte {
-        gap: 8px;
+        display: flex;
+        overflow: auto;
     }
 
     .tags {
