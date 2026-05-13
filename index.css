@@ -326,6 +326,7 @@ body {
 
 /* für projekte */
 .projekte {
+    overflow: auto;
     display: flex;
     gap: 12px;
     background-color: #141414;
@@ -722,11 +723,6 @@ input[type=submit]:hover {
 
     .mir p {
         font-size: 20px;
-    }
-
-    .projekte {
-        display: flex;
-        overflow: auto;
     }
 
     .tags {
