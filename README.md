@@ -1,3 +1,6 @@
+## Pfandkuchen sind hier!
+[Klick mir!](https://github.com/mayi-oi/Pfandkuchen)
+
 ## pancakes web! (leckere pfandkuchen ;D)
 Coole Persönlichen und Portfolio verwenden website!
 
